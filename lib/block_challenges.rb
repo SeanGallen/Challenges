@@ -1,3 +1,5 @@
+# Solving these first two:
+# https://vimeo.com/157505448
 def block_to_proc(&block)
   block
 end
@@ -9,6 +11,7 @@ def wrap(value)
   end
 end
 
+# Spec is named call_twice_and_thrice_spec.rb
 def call_twice(&block)
 end
 

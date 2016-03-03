@@ -13,6 +13,8 @@ RSpec.describe 'linked list functions' do
     end
 
     it 'returns the last item when there is more than one' do
+      # require "pry"
+      # binding.pry
       list = LinkedList.new(Node.new(:lol, Node.new(:wtf, Node.new(:bbq, nil))))
       assert_equal :bbq, list_last(list)
     end
