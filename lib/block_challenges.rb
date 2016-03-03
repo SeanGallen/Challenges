@@ -1,7 +1,12 @@
 def block_to_proc(&block)
+  block
 end
 
 def wrap(value)
+  block_to_proc do
+    value
+
+  end
 end
 
 def call_twice(&block)
