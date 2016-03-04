@@ -19,6 +19,8 @@ RSpec.describe 'list recursion' do
       assert_equal false, nil_node.respond_to?(:data=)
     end
     it 'links to itself' do
+      # require "pry"
+      # binding.pry
       assert_equal nil_node, nil_node.link
     end
     it 'does not have a link=' do

@@ -4,6 +4,7 @@ RSpec.describe 'block challenges' do
   specify 'call_twice calls the block two times' do
     i = 0
     call_twice { i += 1 }
+
     assert_equal 2, i
   end
 

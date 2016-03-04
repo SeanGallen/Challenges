@@ -13,7 +13,11 @@ end
 
 # Spec is named call_twice_and_thrice_spec.rb
 def call_twice(&block)
+  block do i += 1
+  i += 1
+  end
 end
+
 
 def call_thrice(&block)
 end

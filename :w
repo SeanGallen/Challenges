@@ -52,10 +52,11 @@ end
 class NormalNode
   # and these methods
   def data
-      'abc'
+    'abc'
   end
 
   def link
-    nil_node = NilNode.new
+    self.NilNode.new
+
   end
 end
