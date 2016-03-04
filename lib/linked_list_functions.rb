@@ -40,54 +40,6 @@ def list_size(list)
     end
   i
 end
-   # return i if !node
-   # i += 1
-   # node = node.link
-   # return i if !node
-   # i += 1
-   # return i if !node
-   # i += 1
-   # i
-# end
-
-  # if list.head
-  #   i = 1
-  #     if list.head.link
-  #       i += 1
-  #       if list.head.link.link
-  #         i += 1
-  #       end
-  #     end
-  #   i
-  # else
-  #   0
-  # end
-#end
-
-    # node = list.head
-   # nodes =  node.link
-  # node.list = lis
-    # nodes.each do |x|
-    #   y = x.head
-    #   y.data
-    #   i += 1
-    # end
-    # i
-  # else
-    # 0
-  # end
-# end
-  # if list.head.nil?
-  #   0
-  # elsif list.head
-  #   larger = list.head.link
-  #   1
-  # elsif larger
-  #   largest = larger.link
-  #   2
-  # else
-  #   3
-  # end
 def list_each(list, &block) # deleteme
 end
 
@@ -161,14 +113,6 @@ def list_at(list, index)
     nil
   end
 end
-   # while node
-   #   if index = 0 && node.data
-   #     node = node.link
-   #     if index = 1 && node
-   #       return node.data
-   #     end
-   #   end
-   # end
 
 def list_insert(list, index, data)
 end
