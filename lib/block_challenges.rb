@@ -110,4 +110,14 @@ def yield_with_each(array, &block)
 end
 
 def best_advice(array, &block)
+  i = 0
+  while array[i]
+    if block.call(array[i])
+      return array[i]
+    else
+      i += 1
+    end
+  end
 end
+
+
