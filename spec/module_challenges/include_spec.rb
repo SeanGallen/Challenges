@@ -72,7 +72,7 @@ RSpec.describe 'modules as "mixins"... aka using include to change inheritance' 
       it 'returns true if the space ship operator returns a negative value' do
         left   = ClassesForIncludeSpec::AlwaysReturn.new(-1)
         right  = :doesnt_matter
-        result = left < right
+         result = left < right
         assert_equal true, result
 
         left   = ClassesForIncludeSpec::AlwaysReturn.new(-100)

@@ -9,10 +9,7 @@ def list_first(list)
   else
     list.head.data
    end
-
   # Try typing this into pry: show-source -e list.class
-  require 'pry'
-  binding.pry
 end
 
 def list_shift(list)
@@ -32,8 +29,8 @@ def list_unshift(list, data)
   list.head = Node.new(data, list.head)
   list
  # Try typing this into pry: show-source -e list.class
- require "pry"
- binding.pry
+ # require "pry"
+ # binding.pry
 end
 
 # Probably a nice intermediate set
@@ -45,11 +42,7 @@ def list_size(list)
     end
   i
 end
-def list_each(list, &block) # deleteme
-=======
 
-def list_size(list)
-end
 
 def list_last(list)
   node = list.head
@@ -93,10 +86,6 @@ def list_max(list)
   min
 end
 
-def list_max(list)
-end
-
-
 # These ones are harder
 def list_at(list, index)
    index, i, node = 0, 0, list.head
@@ -125,7 +114,7 @@ end
 def list_insert(list, index, data)
 end
 
-
+=begin
 # This method:
 def something(list)
   if list.head
@@ -139,6 +128,7 @@ end
 
 def something(list)
   return 0 if !list.head
-
+end
 def node_insert(node, index, data)
 end
+=end
